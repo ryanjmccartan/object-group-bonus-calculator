@@ -40,4 +40,24 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log( employees );
+if( employees.reviewRating <= 2){
+  console.log( 'should not receive a bonus');
+} else if( employees.reviewRating = 3 ){
+  console.log( 'should receive 4% bonus');
+} else if( employees.reviewRating = 4 ){
+  console.log (' should receive 6% bonus');
+} else if( employees.reviewRating = 5 ){
+  console.log( 'should receive 10% bonus');
+} else if( employees.annualSalary > 65,000){
+  console.log( 'bonus should be adjusted down 1%');
+
+}
+
+function employeeBonus( employees ){
+  let yearlyReview = {
+    name: employees.name
+    bonusPercentage: 
+  }
+
+  
+}
