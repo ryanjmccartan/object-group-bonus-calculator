@@ -40,24 +40,41 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-if( employees.reviewRating <= 2){
-  console.log( 'should not receive a bonus');
-} else if( employees.reviewRating = 3 ){
-  console.log( 'should receive 4% bonus');
-} else if( employees.reviewRating = 4 ){
-  console.log (' should receive 6% bonus');
-} else if( employees.reviewRating = 5 ){
-  console.log( 'should receive 10% bonus');
-} else if( employees.annualSalary > 65,000){
-  console.log( 'bonus should be adjusted down 1%');
+function employeeBonus (employees){
+  for (let i = 0; i < employees.length; i++) {
+    if   
+  }
 
 }
 
-function employeeBonus( employees ){
+
+
+
+
+
+  
+      console.log( 'should not receive a bonus');
+    } else if( employees.reviewRating = 3 ){
+      bonus = 4%
+      //console.log( 'should receive 4% bonus');
+    } else if( employees.reviewRating = 4 ){
+      //console.log (' should receive 6% bonus');
+    } else if( employees.reviewRating = 5 ){
+      //console.log( 'should receive 10% bonus');
+    } else if( employees.annualSalary > 65,000){
+      //console.log( 'bonus should be adjusted down 1%');
+    
+    }
+
+  }
   let yearlyReview = {
-    name: employees.name
-    bonusPercentage: 
+    name: employee.name,
+    bonusPercentage: bonus, 
+    totalCompensation: employees.annualSalary + bonusPercentage,
+    totalBonus: 
   }
 
   
 }
+
+
